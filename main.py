@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask('app')
 
+
 @app.route('/')
 def hello_world():
     print(request.headers)
